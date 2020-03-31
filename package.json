@@ -5,12 +5,25 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
+    "backend": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "hyunchul-joo",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hyunchul-joo/boiler-plate-ko.git"
+  },
+  "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hyunchul-joo/boiler-plate-ko/issues"
+  },
+  "homepage": "https://github.com/hyunchul-joo/boiler-plate-ko#readme",
   "dependencies": {
+    "body-parser": "^1.19.0",
     "express": "^4.17.1",
     "mongoose": "^5.9.7"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
   }
 }
